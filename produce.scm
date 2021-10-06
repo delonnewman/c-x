@@ -1,12 +1,3 @@
-(define (p value)
-  (display value)
-  (newline)
-  value)
-
-(define (ptag tag value)
-  (display tag)
-  (p value))
-
 (define (map f lst)
   (if (null? lst)
       lst
