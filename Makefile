@@ -1,4 +1,4 @@
-CC = cc -Wall -std=c99
+CC = cc99 -Wall -lm
 
 reverse$(EXE):
 	$(CC) -o $@ c-x.c reverse.c
